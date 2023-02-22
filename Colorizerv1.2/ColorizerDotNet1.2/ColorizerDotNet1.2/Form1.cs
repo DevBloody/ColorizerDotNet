@@ -9,10 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using GeckoDotNet;
+using DiscordRpcDemo;
 namespace ColorizerDotNet1._2
 {
     public partial class Form1 : Form
     {
+        private DiscordRpc.EventHandlers handlers;
+        private DiscordRpc.RichPresence presence;
         public GeckoDotNet.TCPGecko Gecko;
 
         float coloraR, coloraG, coloraB, coloraA;
@@ -162,6 +165,15 @@ namespace ColorizerDotNet1._2
 
         private void guna2GradientButton6_Click(object sender, EventArgs e)
         {
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.presence.details = "Playing Colorzer v1.2";
+            this.presence.state = "Applied Team Colors";
+            this.presence.largeImageKey = "colorizerdiscord";
+            this.presence.smallImageKey = "";
+            DiscordRpc.UpdatePresence(ref this.presence);
             try
             {
                 coloraR = hexToFloat(Gecko.peek(0x12D1F180 + diff)) * 256;
@@ -209,12 +221,54 @@ namespace ColorizerDotNet1._2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.presence.details = "Playing Colorzer v1.2";
+            this.presence.state = "In Menu";
+            this.presence.largeImageKey = "colorizerdiscord";
+            this.presence.smallImageKey = "";
+            DiscordRpc.UpdatePresence(ref this.presence);
         }
 
         private void AlphaShowBox_TextChanged(object sender, EventArgs e)
         {
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.presence.details = "Playing Colorzer v1.2";
+            this.presence.state = "Changine Alpha Color";
+            this.presence.largeImageKey = "colorizerdiscord";
+            this.presence.smallImageKey = "";
+            DiscordRpc.UpdatePresence(ref this.presence);
+        }
 
+        private void BravoShowBox_TextChanged(object sender, EventArgs e)
+        {
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.presence.details = "Playing Colorzer v1.2";
+            this.presence.state = "Changine Bravo Color";
+            this.presence.largeImageKey = "colorizerdiscord";
+            this.presence.smallImageKey = "";
+            DiscordRpc.UpdatePresence(ref this.presence);
+        }
+
+        private void NeutralShowBox_TextChanged(object sender, EventArgs e)
+        {
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.presence.details = "Playing Colorzer v1.2";
+            this.presence.state = "Changine Neutral Color";
+            this.presence.largeImageKey = "colorizerdiscord";
+            this.presence.smallImageKey = "";
+            DiscordRpc.UpdatePresence(ref this.presence);
         }
 
         private void guna2GradientButton4_Click(object sender, EventArgs e)
@@ -504,6 +558,15 @@ namespace ColorizerDotNet1._2
 
         private void DisconnButton_Click(object sender, EventArgs e)
         {
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.presence.details = "Playing Colorzer v1.2";
+            this.presence.state = "Disconnected";
+            this.presence.largeImageKey = "colorizerdiscordb";
+            this.presence.smallImageKey = "";
+            DiscordRpc.UpdatePresence(ref this.presence);
             Gecko.Disconnect();
             SettingsGroupBox.Enabled = false;
             DisconnButton.Enabled = false;
@@ -517,6 +580,15 @@ namespace ColorizerDotNet1._2
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.handlers = default(DiscordRpc.EventHandlers);
+            DiscordRpc.Initialize("972313123426037760", ref this.handlers, true, null);
+            this.presence.details = "Playing Colorzer v1.2";
+            this.presence.state = "Connected To TCPGecko";
+            this.presence.largeImageKey = "colorizerdiscord";
+            this.presence.smallImageKey = "";
+            DiscordRpc.UpdatePresence(ref this.presence);
             Gecko = new GeckoDotNet.TCPGecko(IPBox.Text, 7331);
             try
             {

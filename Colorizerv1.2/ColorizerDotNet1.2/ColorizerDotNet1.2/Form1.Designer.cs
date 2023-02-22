@@ -255,6 +255,7 @@
             this.NeutralShowBox.Name = "NeutralShowBox";
             this.NeutralShowBox.Size = new System.Drawing.Size(20, 20);
             this.NeutralShowBox.TabIndex = 7;
+            this.NeutralShowBox.TextChanged += new System.EventHandler(this.NeutralShowBox_TextChanged);
             // 
             // BravoShowBox
             // 
@@ -264,6 +265,7 @@
             this.BravoShowBox.Name = "BravoShowBox";
             this.BravoShowBox.Size = new System.Drawing.Size(20, 20);
             this.BravoShowBox.TabIndex = 6;
+            this.BravoShowBox.TextChanged += new System.EventHandler(this.BravoShowBox_TextChanged);
             // 
             // AlphaShowBox
             // 
