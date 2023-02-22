@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uaoIGkIa9LQ/HTauH+0H4kfVrn0xyNRMLLKzYFZ1SI8+JstAy4V/nFhKOZSMQZ6bR0sfkJy6sXmczVLntL7Ykg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pluna\\OneDrive\\Desktop\\Colorizerv1.2\\ColorizerDotNet1.2\\ColorizerDotNet1.2\\ColorizerDotNet1.2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pluna\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.4\\guna.ui2.winforms.2.0.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}

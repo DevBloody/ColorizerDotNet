@@ -1,0 +1,155 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Guna.UI2.WinForms/2.0.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Design",
+          "System.Management",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net48/Guna.UI2.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Guna.UI2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "Guna.UI2.WinForms/2.0.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Design",
+          "System.Management",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net48/Guna.UI2.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Guna.UI2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "Guna.UI2.WinForms/2.0.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Design",
+          "System.Management",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net48/Guna.UI2.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Guna.UI2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "Guna.UI2.WinForms/2.0.4.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Design",
+          "System.Management",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net48/Guna.UI2.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Guna.UI2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Guna.UI2.WinForms/2.0.4.4": {
+      "sha512": "PAteiG4zIquxHEhRJR4q69d0+U97U4XZuiwCFueXkh8hsw7IpkgPL41A/iyIx6bRFWiyEZ8tBzWqRrq7blrfnA==",
+      "type": "package",
+      "path": "guna.ui2.winforms/2.0.4.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "guna.ui2.winforms.2.0.4.4.nupkg.sha512",
+        "guna.ui2.winforms.nuspec",
+        "icon.png",
+        "lib/net40/Guna.UI2.dll",
+        "lib/net45/Guna.UI2.dll",
+        "lib/net461/Guna.UI2.dll",
+        "lib/net472/Guna.UI2.dll",
+        "lib/net48/Guna.UI2.dll",
+        "lib/net6.0-windows7.0/Guna.UI2.dll",
+        "lib/net7.0-windows7.0/Guna.UI2.dll",
+        "lib/netcoreapp3.1/Guna.UI2.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Guna.UI2.WinForms >= 2.0.4.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pluna\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pluna\\OneDrive\\Desktop\\Colorizerv1.2\\ColorizerDotNet1.2\\ColorizerDotNet1.2\\ColorizerDotNet1.2.csproj",
+      "projectName": "ColorizerDotNet1.2",
+      "projectPath": "C:\\Users\\pluna\\OneDrive\\Desktop\\Colorizerv1.2\\ColorizerDotNet1.2\\ColorizerDotNet1.2\\ColorizerDotNet1.2.csproj",
+      "packagesPath": "C:\\Users\\pluna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pluna\\OneDrive\\Desktop\\Colorizerv1.2\\ColorizerDotNet1.2\\ColorizerDotNet1.2\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pluna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "Guna.UI2.WinForms": {
+            "target": "Package",
+            "version": "[2.0.4.4, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

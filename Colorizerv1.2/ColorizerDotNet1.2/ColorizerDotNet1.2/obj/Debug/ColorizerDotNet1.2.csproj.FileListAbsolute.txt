@@ -1,0 +1,13 @@
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\bin\Debug\ColorizerDotNet1.2.exe.config
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\bin\Debug\ColorizerDotNet1.2.exe
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\bin\Debug\ColorizerDotNet1.2.pdb
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\obj\Debug\ColorizerDotNet1.2.csproj.AssemblyReference.cache
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\obj\Debug\ColorizerDotNet1.2.csproj.SuggestedBindingRedirects.cache
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\obj\Debug\ColorizerDotNet1._2.Form1.resources
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\obj\Debug\ColorizerDotNet1._2.Properties.Resources.resources
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\obj\Debug\ColorizerDotNet1.2.csproj.GenerateResource.cache
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\obj\Debug\ColorizerDotNet1.2.csproj.CoreCompileInputs.cache
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\obj\Debug\ColorizerDotNet1.2.exe
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\obj\Debug\ColorizerDotNet1.2.pdb
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\bin\Debug\Guna.UI2.dll
+C:\Users\pluna\OneDrive\Desktop\Colorizerv1.2\ColorizerDotNet1.2\ColorizerDotNet1.2\obj\Debug\ColorizerDotNet1.2.csproj.CopyComplete
